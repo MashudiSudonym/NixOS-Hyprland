@@ -245,11 +245,12 @@
     algorithm = "zstd";
     };
 
-  powerManagement = {
-  	enable = true;
-	  cpuFreqGovernor = "schedutil";
+  #powerManagement = {
+  #	enable = true;
+	  #cpuFreqGovernor = "schedutil";
           #cpuFreqGovernor = "powersave"; #values ondemnd, powersave, performance
-  };
+  #};
+  services.power-profiles-daemon.enable = true
 
   #hardware.sane = {
   #  enable = true;

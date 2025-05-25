@@ -38,6 +38,7 @@
     mpd
     openssl #required by Rainbow borders
     pciutils
+    power-profiles-daemon
     vim
     wget
     xdg-user-dirs
