@@ -118,10 +118,10 @@
   networking.timeServers = options.networking.timeServers.default ++ [ "pool.ntp.org" ];
 
   # Set your time zone.
-  services.automatic-timezoned.enable = true; #based on IP location
+  #services.automatic-timezoned.enable = true; #based on IP location
   
   #https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-  #time.timeZone = "Asia/Seoul"; # Set local timezone
+  time.timeZone = "Asia/Jakarta"; # Set local timezone
 
   # Select internationalisation properties.
   i18n.defaultLocale = "en_US.UTF-8";
@@ -192,7 +192,7 @@
     nfs.server.enable = false;
   
     openssh.enable = true;
-    flatpak.enable = false;
+    flatpak.enable = true;
 	
   	blueman.enable = true;
   	
@@ -248,6 +248,7 @@
   powerManagement = {
   	enable = true;
 	  cpuFreqGovernor = "schedutil";
+          #cpuFreqGovernor = "powersave"; #values ondemnd, powersave, performance
   };
 
   #hardware.sane = {
