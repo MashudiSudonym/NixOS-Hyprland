@@ -42,6 +42,7 @@
     wget
     xdg-user-dirs
     xdg-utils
+    yazi
 
     fastfetch
     (mpv.override {scripts = [mpvScripts.mpris];}) # with tray
