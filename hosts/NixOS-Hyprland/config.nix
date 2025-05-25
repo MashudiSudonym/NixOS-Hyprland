@@ -250,7 +250,7 @@
 	  #cpuFreqGovernor = "schedutil";
           #cpuFreqGovernor = "powersave"; #values ondemnd, powersave, performance
   #};
-  services.power-profiles-daemon.enable = true
+  services.power-profiles-daemon.enable = true;
 
   #hardware.sane = {
   #  enable = true;
