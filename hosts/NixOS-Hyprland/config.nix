@@ -252,6 +252,7 @@
   #};
   services.power-profiles-daemon.enable = true;
 
+  services.pulseaudio.enable = false;
   #hardware.sane = {
   #  enable = true;
   #  extraBackends = [ pkgs.sane-airscan ];
@@ -262,7 +263,7 @@
   hardware.logitech.wireless.enable = false;
   hardware.logitech.wireless.enableGraphical = false;
 
-  hardware.pulseaudio.enable = false; # stable branch
+  #hardware.pulseaudio.enable = false; # stable branch
 
   # Bluetooth
   hardware = {
