@@ -27,6 +27,7 @@
     findutils
     ffmpeg   
     glib #for gsettings to work
+    gnumake
     gsettings-qt
     git
     killall  
