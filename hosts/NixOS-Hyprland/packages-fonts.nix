@@ -40,6 +40,7 @@
     openssl #required by Rainbow borders
     pciutils
     power-profiles-daemon
+    uvccapture
     vim
     wget
     xdg-user-dirs
