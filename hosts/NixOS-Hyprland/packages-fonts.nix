@@ -26,7 +26,8 @@
     duf
     deno
     findutils
-    ffmpeg   
+    ffmpeg
+    fish
     glib #for gsettings to work
     gnumake
     gsettings-qt
@@ -65,7 +66,7 @@
     cava
     cliphist
     loupe
-    gnome-system-monitor
+    #gnome-system-monitor
     grim
     gtk-engine-murrine #for gtk themes
     hypridle
