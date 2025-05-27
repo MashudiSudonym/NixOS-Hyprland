@@ -35,7 +35,7 @@
     lazygit
     libappindicator
     libnotify
-    lua51Packages.tl
+    lua
     luarocks-nix
     nautilus
     ncmpcpp
