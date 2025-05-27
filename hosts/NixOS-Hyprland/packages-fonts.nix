@@ -24,6 +24,7 @@
     curl
     cpufrequtils
     duf
+    deno
     findutils
     ffmpeg   
     glib #for gsettings to work
