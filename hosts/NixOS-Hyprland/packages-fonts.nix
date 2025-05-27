@@ -37,6 +37,7 @@
     nautilus
     ncmpcpp
     neovim
+    nodejs
     mpd
     openssl #required by Rainbow borders
     pciutils
