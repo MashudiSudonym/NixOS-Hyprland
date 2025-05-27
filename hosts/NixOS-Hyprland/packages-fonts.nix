@@ -35,8 +35,6 @@
     lazygit
     libappindicator
     libnotify
-    lua
-    luarocks-nix
     nautilus
     ncmpcpp
     neovim
