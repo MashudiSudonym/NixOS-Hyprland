@@ -31,7 +31,8 @@
     gnumake
     gsettings-qt
     git
-    killall  
+    killall
+    lazygit
     libappindicator
     libnotify
     nautilus
@@ -43,6 +44,7 @@
     pciutils
     power-profiles-daemon
     prettierd
+    ripgrep
     stylua
     uvccapture
     vim
