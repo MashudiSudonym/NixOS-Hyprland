@@ -42,6 +42,8 @@
     openssl #required by Rainbow borders
     pciutils
     power-profiles-daemon
+    prettierd
+    stylua
     uvccapture
     vim
     wget
